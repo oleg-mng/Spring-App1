@@ -11,5 +11,9 @@
           class="org.example.RapMusic">
 <!--        <constructor-arg value="Crema"/>-->
     </bean>
+    <bean id="musicPlayer"
+    class="org.example.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
 
 </beans>
