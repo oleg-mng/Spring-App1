@@ -13,7 +13,7 @@ public class MusicPlayer {
 
     public void playMusic(List<Music> musicList) {
         for (Music m : musicList) {
-            m.getSong();
+            System.out.println(m.getSong());
         }
     }
 

@@ -23,11 +23,8 @@
     class="org.example.MusicPlayer">
         <property name="musicList">
             <list>
-                <value type="org.example.RapMusic"></value>
                 <ref bean="musicBeanRap"></ref>
-                <value type="org.example.RockMusic"></value>
                 <ref bean="musicBeanRock"></ref>
-                <value type="org.example.ClassicalMusic"></value>
                 <ref bean="musicBeanClassical"></ref>
             </list>
         </property>
@@ -36,5 +33,4 @@
 <!--        <property name="name" value="${musicPlayer.name}"/>-->
 <!--        <property name="volume" value="${musicPlayer.volume}"/>-->
     </bean>
-
 </beans>
