@@ -11,6 +11,7 @@
 
     <bean id="musicBeanRap"
           class="org.example.RapMusic">
+
 <!--        <constructor-arg value="Crema"/>-->
     </bean>
     <bean id="musicBeanRock"
@@ -19,19 +20,19 @@
     <bean id="musicBeanClassical"
           class="org.example.ClassicalMusic">
     </bean>
-    <bean id="musicPlayer"
-    class="org.example.MusicPlayer"
-    scope="prototype">
-        <property name="musicList">
-            <list>
-                <ref bean="musicBeanRap"></ref>
-                <ref bean="musicBeanRock"></ref>
-                <ref bean="musicBeanClassical"></ref>
-            </list>
-        </property>
-<!--        <constructor-arg ref="musicBean"/>-->
-<!--        <property name="music" ref="musicBean"/>-->
-<!--        <property name="name" value="${musicPlayer.name}"/>-->
-<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
-    </bean>
+<!--    <bean id="musicPlayer"-->
+<!--    class="org.example.MusicPlayer"-->
+<!--    scope="prototype">-->
+<!--        <property name="musicList">-->
+<!--            <list>-->
+<!--                <ref bean="musicBeanRap"></ref>-->
+<!--                <ref bean="musicBeanRock"></ref>-->
+<!--                <ref bean="musicBeanClassical"></ref>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--&lt;!&ndash;        <constructor-arg ref="musicBean"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="music" ref="musicBean"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="name" value="${musicPlayer.name}"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="volume" value="${musicPlayer.volume}"/>&ndash;&gt;-->
+<!--    </bean>-->
 </beans>
