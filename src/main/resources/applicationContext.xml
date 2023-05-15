@@ -13,7 +13,8 @@
           class="org.example.RapMusic"
           scope="prototype"
     init-method="doMyInit"
-    destroy-method="doMyDestroy">
+    destroy-method="doMyDestroy"
+    factory-method="getRapMusic">
 
 <!--        <constructor-arg value="Crema"/>-->
     </bean>

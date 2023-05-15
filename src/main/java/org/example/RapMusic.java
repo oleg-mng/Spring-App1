@@ -1,6 +1,10 @@
 package org.example;
 
 public class RapMusic implements Music{
+    private RapMusic(){}
+    public static RapMusic getRapMusic(){
+        return new RapMusic();
+    }
     public void doMyInit(){
         System.out.println("do my initialization");
     }

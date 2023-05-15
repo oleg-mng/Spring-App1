@@ -12,6 +12,8 @@ public class TestSpring {
 
         RapMusic rapMusic = context.getBean("musicBeanRap", RapMusic.class);
         System.out.println(rapMusic.getSong());
+
+
 //        Music music = context.getBean("musicBean", Music.class);
 //        MusicPlayer musicPlayer = new MusicPlayer(music);
 //        MusicPlayer firstMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
