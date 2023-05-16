@@ -3,6 +3,7 @@ package org.example;
 public class RapMusic implements Music{
     private RapMusic(){}
     public static RapMusic getRapMusic(){
+        System.out.println("used getRapMusic");
         return new RapMusic();
     }
     public void doMyInit(){
