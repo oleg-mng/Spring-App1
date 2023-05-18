@@ -24,8 +24,8 @@
 <!--    <bean id="musicBeanClassical"-->
 <!--          class="org.example.ClassicalMusic">-->
 <!--    </bean>-->
-<!--    <bean id="musicPlayer"-->
-<!--    class="org.example.MusicPlayer"-->
+    <bean id="musicPlayer"
+    class="org.example.MusicPlayer">
 <!--    scope="prototype">-->
 <!--        <property name="musicList">-->
 <!--            <list>-->
@@ -38,5 +38,5 @@
 <!--&lt;!&ndash;        <property name="music" ref="musicBean"/>&ndash;&gt;-->
 <!--&lt;!&ndash;        <property name="name" value="${musicPlayer.name}"/>&ndash;&gt;-->
 <!--&lt;!&ndash;        <property name="volume" value="${musicPlayer.volume}"/>&ndash;&gt;-->
-<!--    </bean>-->
+    </bean>
 </beans>
