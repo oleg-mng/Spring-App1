@@ -1,5 +1,9 @@
 package org.example;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class RapMusic implements Music{
     private RapMusic(){}
     public static RapMusic getRapMusic(){
