@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+//@Component
 public class MusicPlayer {
 //    @Autowired
 //    @Qualifier("classicalMusic")
@@ -21,7 +21,7 @@ public class MusicPlayer {
     private Music music1;
     private Music music2;
 
-    @Autowired
+//    @Autowired
     public MusicPlayer(@Qualifier("classicalMusic") Music music1,
                        @Qualifier("rapMusic") Music music2) {
         this.music1 = music1;
